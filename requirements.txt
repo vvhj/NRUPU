@@ -1,0 +1,10 @@
+opencv-python
+tqdm
+tensorboard
+addict
+sklearn
+pathspec
+onnx
+onnxruntime
+netron
+thop

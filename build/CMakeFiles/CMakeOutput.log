@@ -1,0 +1,983 @@
+The system is: Linux - 3.10.0-1062.18.1.el7.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/3.19.6/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/3.19.6/CompilerIdC/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f9e57/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9e57.dir/build.make CMakeFiles/cmTC_f9e57.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++   -fPIE   -v -o CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o -c /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+Target: x86_64-unknown-linux-gnu
+Configured with: /usr/local/src/gcc-5.4.0/configure --enable-checking=release --enable-languages=c,c++ --disable-multilib
+Thread model: posix
+gcc version 5.4.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/cc1plus -quiet -v -D_GNU_SOURCE /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o -version -fPIE -o /tmp/cc2mHBMM.s
+GNU C++ (GCC) version 5.4.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 5.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0
+ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0/x86_64-unknown-linux-gnu
+ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward
+ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++ (GCC) version 5.4.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 5.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 19a5408212d0968b9cf5d84e64e14f1c
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2mHBMM.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-41.base.el7
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_f9e57
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9e57.dir/link.txt --verbose=1
+/usr/local/bin/c++  -v CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f9e57 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: /usr/local/src/gcc-5.4.0/configure --enable-checking=release --enable-languages=c,c++ --disable-multilib
+Thread model: posix
+gcc version 5.4.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f9e57' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLaqETQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f9e57 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0]
+    add: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0/x86_64-unknown-linux-gnu]
+    add: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward]
+    add: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include]
+    add: [/usr/local/include]
+    add: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0] ==> [/usr/local/include/c++/5.4.0]
+  collapse include dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0/x86_64-unknown-linux-gnu] ==> [/usr/local/include/c++/5.4.0/x86_64-unknown-linux-gnu]
+  collapse include dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward] ==> [/usr/local/include/c++/5.4.0/backward]
+  collapse include dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include] ==> [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed] ==> [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include/c++/5.4.0;/usr/local/include/c++/5.4.0/x86_64-unknown-linux-gnu;/usr/local/include/c++/5.4.0/backward;/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include;/usr/local/include;/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_f9e57/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9e57.dir/build.make CMakeFiles/cmTC_f9e57.dir/build]
+  ignore line: [gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/c++   -fPIE   -v -o CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o -c /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /usr/local/src/gcc-5.4.0/configure --enable-checking=release --enable-languages=c c++ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/cc1plus -quiet -v -D_GNU_SOURCE /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o -version -fPIE -o /tmp/cc2mHBMM.s]
+  ignore line: [GNU C++ (GCC) version 5.4.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0]
+  ignore line: [ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0/x86_64-unknown-linux-gnu]
+  ignore line: [ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward]
+  ignore line: [ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GCC) version 5.4.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 19a5408212d0968b9cf5d84e64e14f1c]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2mHBMM.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-41.base.el7]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_f9e57]
+  ignore line: [/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9e57.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++  -v CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f9e57 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /usr/local/src/gcc-5.4.0/configure --enable-checking=release --enable-languages=c c++ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f9e57' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLaqETQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f9e57 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLaqETQ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f9e57] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+    arg [-L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..]
+    arg [CMakeFiles/cmTC_f9e57.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+  collapse library dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> [/usr/local/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0;/usr/local/lib64;/lib64;/usr/lib64;/usr/local/lib]
+  implicit fwks: []
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bd230/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd230.dir/build.make CMakeFiles/cmTC_bd230.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/gcc   -fPIE   -v -o CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o -c /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc
+Target: x86_64-unknown-linux-gnu
+Configured with: /usr/local/src/gcc-5.4.0/configure --enable-checking=release --enable-languages=c,c++ --disable-multilib
+Thread model: posix
+gcc version 5.4.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/cc1 -quiet -v /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o -version -fPIE -o /tmp/ccrGqCOZ.s
+GNU C11 (GCC) version 5.4.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 5.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed
+ /usr/include
+End of search list.
+GNU C11 (GCC) version 5.4.0 (x86_64-unknown-linux-gnu)
+	compiled by GNU C version 5.4.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7f184848995efc1495ae4d961e99e11e
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o /tmp/ccrGqCOZ.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-41.base.el7
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_bd230
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd230.dir/link.txt --verbose=1
+/usr/local/bin/gcc  -v CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o -o cmTC_bd230 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: /usr/local/src/gcc-5.4.0/configure --enable-checking=release --enable-languages=c,c++ --disable-multilib
+Thread model: posix
+gcc version 5.4.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bd230' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKXVm23.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bd230 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include]
+    add: [/usr/local/include]
+    add: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include] ==> [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed] ==> [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include;/usr/local/include;/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_bd230/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd230.dir/build.make CMakeFiles/cmTC_bd230.dir/build]
+  ignore line: [gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/gcc   -fPIE   -v -o CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o -c /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /usr/local/src/gcc-5.4.0/configure --enable-checking=release --enable-languages=c c++ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/cc1 -quiet -v /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o -version -fPIE -o /tmp/ccrGqCOZ.s]
+  ignore line: [GNU C11 (GCC) version 5.4.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../x86_64-unknown-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (GCC) version 5.4.0 (x86_64-unknown-linux-gnu)]
+  ignore line: [	compiled by GNU C version 5.4.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7f184848995efc1495ae4d961e99e11e]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o /tmp/ccrGqCOZ.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-41.base.el7]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_bd230]
+  ignore line: [/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd230.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/gcc  -v CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o -o cmTC_bd230 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /usr/local/src/gcc-5.4.0/configure --enable-checking=release --enable-languages=c c++ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bd230' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKXVm23.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bd230 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../.. CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-unknown-linux-gnu/5.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKXVm23.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bd230] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+    arg [-L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..]
+    arg [CMakeFiles/cmTC_bd230.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0] ==> [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0]
+  collapse library dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0/../../..] ==> [/usr/local/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-unknown-linux-gnu/5.4.0;/usr/local/lib64;/lib64;/usr/lib64;/usr/local/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dcb7a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dcb7a.dir/build.make CMakeFiles/cmTC_dcb7a.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcb7a.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_dcb7a.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dcb7a
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcb7a.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_dcb7a.dir/CheckIncludeFile.c.o -o cmTC_dcb7a 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5d751/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d751.dir/build.make CMakeFiles/cmTC_5d751.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d751.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5d751.dir/CheckSymbolExists.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5d751
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d751.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5d751.dir/CheckSymbolExists.c.o -o cmTC_5d751 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+File /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_91de8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91de8.dir/build.make CMakeFiles/cmTC_91de8.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91de8.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_91de8.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_91de8
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91de8.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_91de8.dir/CheckIncludeFile.c.o -o cmTC_91de8 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5269a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5269a.dir/build.make CMakeFiles/cmTC_5269a.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5269a.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5269a.dir/CheckSymbolExists.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5269a
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5269a.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5269a.dir/CheckSymbolExists.c.o -o cmTC_5269a 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+File /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9b3a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b3a9.dir/build.make CMakeFiles/cmTC_9b3a9.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b3a9.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_9b3a9.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9b3a9
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b3a9.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_9b3a9.dir/CheckIncludeFile.c.o -o cmTC_9b3a9 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_81bdb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81bdb.dir/build.make CMakeFiles/cmTC_81bdb.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81bdb.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_81bdb.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_81bdb
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81bdb.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_81bdb.dir/CheckIncludeFile.c.o -o cmTC_81bdb 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_953e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_953e8.dir/build.make CMakeFiles/cmTC_953e8.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_953e8.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_953e8.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_953e8
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_953e8.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_953e8.dir/CheckIncludeFile.c.o -o cmTC_953e8 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ec0bd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec0bd.dir/build.make CMakeFiles/cmTC_ec0bd.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec0bd.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_ec0bd.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_ec0bd
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec0bd.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_ec0bd.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o -o cmTC_ec0bd 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_42e59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_42e59.dir/build.make CMakeFiles/cmTC_42e59.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42e59.dir/TestEndianess.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_42e59.dir/TestEndianess.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_42e59
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42e59.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_42e59.dir/TestEndianess.c.o -o cmTC_42e59 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_68bfd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68bfd.dir/build.make CMakeFiles/cmTC_68bfd.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68bfd.dir/TestEndianess.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_68bfd.dir/TestEndianess.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_68bfd
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68bfd.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_68bfd.dir/TestEndianess.c.o -o cmTC_68bfd 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1fc2f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1fc2f.dir/build.make CMakeFiles/cmTC_1fc2f.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fc2f.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_1fc2f.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1fc2f
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fc2f.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_1fc2f.dir/CheckIncludeFile.c.o -o cmTC_1fc2f 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0567d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0567d.dir/build.make CMakeFiles/cmTC_0567d.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0567d.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0567d.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0567d
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0567d.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0567d.dir/CheckIncludeFile.c.o -o cmTC_0567d 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dec55/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dec55.dir/build.make CMakeFiles/cmTC_dec55.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dec55.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_dec55.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dec55
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dec55.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_dec55.dir/CheckIncludeFile.c.o -o cmTC_dec55 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_815a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_815a1.dir/build.make CMakeFiles/cmTC_815a1.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_815a1.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_815a1.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_815a1
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_815a1.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_815a1.dir/CheckIncludeFile.c.o -o cmTC_815a1 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_158c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_158c7.dir/build.make CMakeFiles/cmTC_158c7.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_158c7.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_158c7.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_158c7
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_158c7.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_158c7.dir/CheckIncludeFile.c.o -o cmTC_158c7 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a0836/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0836.dir/build.make CMakeFiles/cmTC_a0836.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0836.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_a0836.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a0836
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0836.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a0836.dir/CheckIncludeFile.c.o -o cmTC_a0836 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4c3da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c3da.dir/build.make CMakeFiles/cmTC_4c3da.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c3da.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_4c3da.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4c3da
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c3da.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_4c3da.dir/CheckIncludeFile.c.o -o cmTC_4c3da 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b02e5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b02e5.dir/build.make CMakeFiles/cmTC_b02e5.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b02e5.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_b02e5.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b02e5
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b02e5.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_b02e5.dir/CheckIncludeFile.c.o -o cmTC_b02e5 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_55225/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55225.dir/build.make CMakeFiles/cmTC_55225.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55225.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_55225.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_55225
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55225.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_55225.dir/CheckIncludeFile.c.o -o cmTC_55225 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_f25a7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f25a7.dir/build.make CMakeFiles/cmTC_f25a7.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f25a7.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_f25a7.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f25a7
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f25a7.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_f25a7.dir/CheckIncludeFile.c.o -o cmTC_f25a7 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_39f57/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39f57.dir/build.make CMakeFiles/cmTC_39f57.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39f57.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_39f57.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_39f57
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39f57.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_39f57.dir/CheckIncludeFile.c.o -o cmTC_39f57 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0aa9e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0aa9e.dir/build.make CMakeFiles/cmTC_0aa9e.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0aa9e.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0aa9e.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0aa9e
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aa9e.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0aa9e.dir/CheckIncludeFile.c.o -o cmTC_0aa9e 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ec307/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec307.dir/build.make CMakeFiles/cmTC_ec307.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec307.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_ec307.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ec307
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec307.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_ec307.dir/CheckIncludeFile.c.o -o cmTC_ec307 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0bfe1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0bfe1.dir/build.make CMakeFiles/cmTC_0bfe1.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bfe1.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_0bfe1.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0bfe1
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bfe1.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0bfe1.dir/CheckIncludeFile.c.o -o cmTC_0bfe1 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_cee68/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cee68.dir/build.make CMakeFiles/cmTC_cee68.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cee68.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_cee68.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cee68
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cee68.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_cee68.dir/CheckIncludeFile.c.o -o cmTC_cee68 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_43333/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43333.dir/build.make CMakeFiles/cmTC_43333.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43333.dir/OPJ_HAVE_MALLOC_H.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_43333.dir/OPJ_HAVE_MALLOC_H.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c
+Linking C executable cmTC_43333
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43333.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_43333.dir/OPJ_HAVE_MALLOC_H.c.o -o cmTC_43333 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e3ada/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3ada.dir/build.make CMakeFiles/cmTC_e3ada.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3ada.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc -D_POSIX_C_SOURCE=200112L  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e3ada.dir/CheckSymbolExists.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e3ada
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3ada.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e3ada.dir/CheckSymbolExists.c.o -o cmTC_e3ada 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+File /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_367a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_367a2.dir/build.make CMakeFiles/cmTC_367a2.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_367a2.dir/CheckSymbolExists.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_367a2.dir/CheckSymbolExists.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_367a2
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_367a2.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_367a2.dir/CheckSymbolExists.c.o -o cmTC_367a2 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+File /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5eefa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5eefa.dir/build.make CMakeFiles/cmTC_5eefa.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5eefa.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_5eefa.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5eefa
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eefa.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5eefa.dir/CheckIncludeFile.c.o -o cmTC_5eefa 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fa62f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa62f.dir/build.make CMakeFiles/cmTC_fa62f.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa62f.dir/src.c.o
+/usr/local/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_fa62f.dir/src.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fa62f
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa62f.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_fa62f.dir/src.c.o -o cmTC_fa62f 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_63986/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63986.dir/build.make CMakeFiles/cmTC_63986.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63986.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_63986.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_63986
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63986.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_63986.dir/CheckIncludeFile.c.o -o cmTC_63986 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_7dd7d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7dd7d.dir/build.make CMakeFiles/cmTC_7dd7d.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7dd7d.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_7dd7d.dir/CheckFunctionExists.c.o -c /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7dd7d
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dd7d.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7dd7d.dir/CheckFunctionExists.c.o -o cmTC_7dd7d  -Wl,-rpath,/root/miniconda3/envs/lane-det/lib /root/miniconda3/envs/lane-det/lib/libmkl_intel_lp64.so /root/miniconda3/envs/lane-det/lib/libmkl_intel_thread.so /root/miniconda3/envs/lane-det/lib/libmkl_core.so /root/miniconda3/envs/lane-det/lib/libiomp5.so -lm -ldl 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e85cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e85cc.dir/build.make CMakeFiles/cmTC_e85cc.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e85cc.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_e85cc.dir/CheckFunctionExists.c.o -c /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e85cc
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e85cc.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e85cc.dir/CheckFunctionExists.c.o -o cmTC_e85cc  -Wl,-rpath,/root/miniconda3/envs/lane-det/lib /root/miniconda3/envs/lane-det/lib/libmkl_intel_lp64.so /root/miniconda3/envs/lane-det/lib/libmkl_intel_thread.so /root/miniconda3/envs/lane-det/lib/libmkl_core.so /root/miniconda3/envs/lane-det/lib/libiomp5.so -lm -ldl -lm -ldl 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlerror exists in the dl passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a1060/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a1060.dir/build.make CMakeFiles/cmTC_a1060.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1060.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_a1060.dir/CheckFunctionExists.c.o -c /root/miniconda3/envs/lane-det/share/cmake-3.19/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a1060
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1060.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a1060.dir/CheckFunctionExists.c.o -o cmTC_a1060  -ldl 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_6f416/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f416.dir/build.make CMakeFiles/cmTC_6f416.dir/build
+gmake[1]: Entering directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f416.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -o CMakeFiles/cmTC_6f416.dir/CheckIncludeFile.c.o -c /root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6f416
+/root/miniconda3/envs/lane-det/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f416.dir/link.txt --verbose=1
+/usr/local/bin/gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_6f416.dir/CheckIncludeFile.c.o -o cmTC_6f416 
+gmake[1]: Leaving directory `/root/work/Ultra-Fast-Lane-Detection-master/build/CMakeFiles/CMakeTmp'
+
+
+

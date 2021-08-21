@@ -1,0 +1,25 @@
+# Target labels
+ Main
+ opencv_objdetect
+ AccuracyTest
+# Source files and their labels
+/root/work/Ultra-Fast-Lane-Detection-master/opencv-master/modules/objdetect/test/opencl/test_hogdetector.cpp
+ Main
+ opencv_objdetect
+ AccuracyTest
+/root/work/Ultra-Fast-Lane-Detection-master/opencv-master/modules/objdetect/test/test_cascadeandhog.cpp
+ Main
+ opencv_objdetect
+ AccuracyTest
+/root/work/Ultra-Fast-Lane-Detection-master/opencv-master/modules/objdetect/test/test_main.cpp
+ Main
+ opencv_objdetect
+ AccuracyTest
+/root/work/Ultra-Fast-Lane-Detection-master/opencv-master/modules/objdetect/test/test_qrcode.cpp
+ Main
+ opencv_objdetect
+ AccuracyTest
+/root/work/Ultra-Fast-Lane-Detection-master/opencv-master/modules/objdetect/test/test_precomp.hpp
+ Main
+ opencv_objdetect
+ AccuracyTest
