@@ -10,7 +10,7 @@ The evaluation code is modified from [SCNN](https://github.com/XingangPan/SCNN) 
 Caffe model and prototxt can be found [here](https://github.com/Jade999/caffe_lane_detection).
 
 # Demo 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=lnFbAG3GBN4
+<a href="https://www.bilibili.com/video/BV1Q44y1k7m4?share_source=copy_web
 " target="_blank"><img src="http://img.youtube.com/vi/lnFbAG3GBN4/0.jpg" 
 alt="Demo" width="240" height="180" border="10" /></a>
 
