@@ -15,6 +15,7 @@ Please see [INSTALL.md](./INSTALL.md)
 python xxxx.py configs/xxx.py
 ```
 deviation.py : deviation for beltline，
+test.py : test accuarcy and speed.
 # 自定义数据集
 https://blog.csdn.net/qq_26894673/article/details/100052191
 
@@ -23,9 +24,7 @@ We provide trained Res-18 models on Tusimple.
 
 |  Dataset  | Metric This repo | Avg FPS on GTX 2080Ti |    Avg FPS on NJNX    |    Model    |
 |:--------: |:----------------:|:---------------------:|:---------------------:|:-----------:|
-| Tusimple  |       95.62      |         682           |         115           | [GoogleDrive](https://drive.google.com/file/d/1zdlQ9IwzQqcbmqUEfWNjUzKPM-strawk/view?usp=sharing
-
-# Thanks
+| Tusimple  |       95.62      |         682           |         115           | [GoogleDrive](https://drive.google.com/file/d/1zdlQ9IwzQqcbmqUEfWNjUzKPM-strawk/view?usp=sharing)|
 
 # Thanks
 Thanks (UFAST) https://github.com/cfzd/Ultra-Fast-Lane-Detection and (RepVGG) https://github.com/DingXiaoH/RepVGG. Please use following citation to show respect.
@@ -46,5 +45,4 @@ pages={13733--13742},
 year={2021}
 }
 ```
-
 
