@@ -11,7 +11,7 @@ Caffe model and prototxt can be found [here](https://github.com/Jade999/caffe_la
 
 # Demo 
 <a href="https://www.bilibili.com/video/BV1Q44y1k7m4?share_source=copy_web
-" target="_blank"><img src="image/20.png" 
+" target="_blank"><img src="https://github.com/vvhj/NRUPU/blob/main/images/20.png" 
 alt="Demo" width="240" height="180" border="10" /></a>
 
 # Install
