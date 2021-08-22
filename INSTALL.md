@@ -10,8 +10,8 @@
 2. Create a conda virtual environment and activate it
 
     ```Shell
-    conda create -n lane-det python=3.7 -y
-    conda activate lane-det
+    conda create -n line-det python=3.7 -y
+    conda activate line-det
     ```
 
 3. Install dependencies
