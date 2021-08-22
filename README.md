@@ -21,9 +21,9 @@ https://blog.csdn.net/qq_26894673/article/details/100052191
 # Trained models
 We provide trained Res-18 models on Tusimple.
 
-|  Dataset  | Metric This repo | Avg FPS on GTX 1080Ti |    Model    |
-|:--------: |:----------------:|:-------------------:|:-----------:|
-| Tusimple  |       95.62      |         682         | [GoogleDrive](https://drive.google.com/file/d/1zdlQ9IwzQqcbmqUEfWNjUzKPM-strawk/view?usp=sharing
+|  Dataset  | Metric This repo | Avg FPS on GTX 2080Ti |    Avg FPS on NJNX    |    Model    |
+|:--------: |:----------------:|:---------------------:|:---------------------:|:-----------:|
+| Tusimple  |       95.62      |         682           |         115           | [GoogleDrive](https://drive.google.com/file/d/1zdlQ9IwzQqcbmqUEfWNjUzKPM-strawk/view?usp=sharing
 
 # Thanks
 
