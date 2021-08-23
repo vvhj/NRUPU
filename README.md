@@ -16,8 +16,6 @@ python xxxx.py configs/xxx.py
 ```
 deviation.py : deviation for beltline，
 test.py : test accuarcy and speed.
-# 自定义数据集
-https://blog.csdn.net/qq_26894673/article/details/100052191
 
 # Trained models
 We provide trained Res-18 models on Tusimple.
