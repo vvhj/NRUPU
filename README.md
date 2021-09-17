@@ -16,9 +16,10 @@ python xxxx.py configs/xxx.py
 ```
 deviation.py : deviation for beltline，
 test.py : test accuarcy and speed.
+Code for training will be released in future.
 
 # Trained models
-We provide trained Res-18 models on Tusimple.
+We provide trained models on Tusimple at r=0.6. Other model will be released in future.
 
 |  Dataset  | Metric This repo | Avg FPS on GTX 2080Ti |    Avg FPS on NJNX    |    Model    |
 |:--------: |:----------------:|:---------------------:|:---------------------:|:-----------:|
