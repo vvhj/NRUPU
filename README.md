@@ -1,5 +1,6 @@
 # Non-residual Unrestricted Pruned Ultra-faster Line Detection
 Ultra-faster Line Detection for lane detection and belt line detection.
+The fastest lightweight lane line detection algorithm!
 Work step by step open.
 # Demo 
 <a href="https://www.bilibili.com/video/BV1Q44y1k7m4?share_source=copy_web
@@ -42,6 +43,17 @@ author={Ding, Xiaohan and Zhang, Xiangyu and Ma, Ningning and Han, Jungong and D
 booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
 pages={13733--13742},
 year={2021}
+}
+```
+If you use the techniques in this article please cite:
+```
+@article{chen2023non,
+  title={Non-Residual Unrestricted Pruned Ultra-faster Line Detection for Edge Devices},
+  author={Chen, Pengpeng and Liu, Dongjingdian and Gao, Shouwan},
+  journal={Pattern Recognition},
+  pages={109321},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 
